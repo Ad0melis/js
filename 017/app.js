@@ -68,17 +68,17 @@ clowns.forEach((c, i) => {
 })
 
 
-setInterval(() => { // end main
-    clowns.forEach((c, i) => {
-        if (i % 2) {
-            if (c.style.visibility == 'visible') {
-                c.style.visibility = 'hidden';
-            } else {
-                c.style.visibility = 'visible';
-            }
-        }
-    })
-}, 100);
+// setInterval(() => { // end main
+//     clowns.forEach((c, i) => {
+//         if (i % 2) {
+//             if (c.style.visibility == 'visible') {
+//                 c.style.visibility = 'hidden';
+//             } else {
+//                 c.style.visibility = 'visible';
+//             }
+//         }
+//     })
+// }, 100);
 
 console.log(clowns)
 
