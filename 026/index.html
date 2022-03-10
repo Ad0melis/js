@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">  
     <script src="app.js" defer></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+  
     <title>026</title>
     <style>
         body{
@@ -22,16 +21,32 @@
         .letter{
             font-family: 'Major Mono Display', monospace;
             font-size: 40px;
+            color: red;
+            min-width: 60px;
 
         }
         .tablo{
             display: flex;
-    
         }
+        .enter{
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            padding: 40px;
+            border: 2px solid plum;
+        }
+
     </style>
 </head>
 <body>
     
+    <div class="enter">
+        <input type="text" id="text">
+        <input type="color" id="color">
+        <input type="range" id="range" min="30" max="90" >
+        <button id="enter-text">Enter text</button>
+    </div>
+
 <div class="tablo"></div>
 
 </body>
